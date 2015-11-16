@@ -92,7 +92,7 @@
         <profile>
             <id>wildfly</id>
             <activation>
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <modules>
                 <module>jboss-as7</module>
@@ -101,7 +101,7 @@
         <profile>
             <id>karaf</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <modules>
                 <module>karaf</module>

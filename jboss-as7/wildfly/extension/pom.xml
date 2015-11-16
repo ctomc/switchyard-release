@@ -263,6 +263,14 @@
             <artifactId>picketbox</artifactId>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.wildfly.core</groupId>
+            <artifactId>wildfly-subsystem-test</artifactId>
+            <type>pom</type>
+            <scope>test</scope>
+            <version>${version.wildfly}</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

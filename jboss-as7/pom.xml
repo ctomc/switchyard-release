@@ -685,7 +685,7 @@
         <profile>
             <id>wildfly</id>
             <activation>
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <modules>
                 <module>wildfly</module>
